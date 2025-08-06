@@ -30,7 +30,6 @@ export function TeamSection() {
           Meet the professionals dedicated to your compliance success
         </p>
 
-        <Accordion type="single" collapsible defaultValue="item-1" className="w-full">
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1" className="border-none">
             <AccordionTrigger className="bg-card-bg border border-card-border rounded-xl px-6 py-4 text-text-light text-xl font-semibold hover:no-underline data-[state=open]:bg-purple-accent/20 transition-colors">

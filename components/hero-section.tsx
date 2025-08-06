@@ -67,7 +67,7 @@ export function HeroSection() {
               variant="outline"
               className="border-2 border-purple-accent text-purple-accent px-8 py-6 rounded-lg text-lg font-semibold hover:bg-purple-accent hover:text-white transition-colors shadow-lg bg-transparent"
             >
-              Be Compliant
+              Meet Our Team
             </Button>
           </Link>
         </div>

@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="relative z-10 bg-card-bg border-t border-card-border py-12 px-4 md:px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-text-muted">
-        <div className="col-span-1 md:col-span-2">
+        <div>
           <Link href="#" className="text-2xl font-bold text-text-light mb-4 block" prefetch={false}>
             Certainty.
           </Link>
@@ -18,12 +18,12 @@ export function Footer() {
           <h3 className="text-lg font-semibold text-text-light mb-4">Useful Links</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="#" className="hover:text-purple-accent transition-colors" prefetch={false}>
-                About
+              <Link href="#team-section" className="hover:text-purple-accent transition-colors" prefetch={false}>
+                Team
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:text-purple-accent transition-colors" prefetch={false}>
+              <Link href="#services-section" className="hover:text-purple-accent transition-colors" prefetch={false}>
                 Services
               </Link>
             </li>
@@ -49,13 +49,13 @@ export function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-text-light mb-4">Contact Us</h3>
           <div className="flex space-x-4 mb-4">
-            <Link href="#" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
+            <Link href="https://instagram.com" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
               <Instagram className="w-6 h-6" />
             </Link>
-            <Link href="#" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
+            <Link href="https://linkedin.com" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
               <Linkedin className="w-6 h-6" />
             </Link>
-            <Link href="#" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
+            <Link href="mailto:info@certainty.solutions" className="text-text-muted hover:text-purple-accent transition-colors" prefetch={false}>
               <Mail className="w-6 h-6" />
             </Link>
           </div>

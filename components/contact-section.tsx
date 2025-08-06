@@ -53,7 +53,9 @@ export function ContactSection() {
         </div>
 
         <Button className="bg-white text-dark-bg px-8 py-6 rounded-lg text-lg font-semibold hover:bg-gray-200 transition-colors shadow-lg">
-          <Mail className="mr-2 w-5 h-5" /> Contact Us
+          <a href="mailto:info@certainty.solutions" className="flex items-center">
+            <Mail className="mr-2 w-5 h-5" /> Contact Us
+          </a>
         </Button>
       </div>
     </section>

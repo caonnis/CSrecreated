@@ -44,7 +44,7 @@ export function Navbar() {
           About
         </a>
         <a
-          href="#"
+          href="#contact-section"
           className="text-text-light hover:text-purple-accent transition-colors"
         >
           Contact
